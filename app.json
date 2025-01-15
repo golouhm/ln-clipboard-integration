@@ -1,0 +1,18 @@
+{
+    "id": "d1f5afe8-f0f3-40f8-aa7d-b042d7f2a28e",
+    "version": "0.0.4",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Mitja Golouh",
+        "homepage": "/",
+        "support": "mitja.golouh@gmail.com"
+    },
+    "name": "LN Clipboard Integration",
+    "nameSlug": "ln-clipboard-integration",
+    "classFile": "LnClipboardIntegrationApp.ts",
+    "description": "Convert Lotus Notes links pasted from clipboard to notes:// format. As admin add 'notes' to which protocol markdown links should accept in Administration / Message / Markdown / Markdown Support Schemes for Link",
+    "implements": [
+        "IPreMessageSentModify"
+    ]
+}
